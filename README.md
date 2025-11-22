@@ -66,7 +66,9 @@ A estrutura principal do projeto está organizada da seguinte forma:
 ```
 frontend-fusion-desafio/
 ├── app/
-│   ├── Components     # Estilos globais e configuração do Tailwind
+│   ├── Components
+│     └── CardPerfil.tsx        
+    # Estilos globais e configuração do Tailwind
 │   ├── layout.tsx      # Layout principal da aplicação
 │   └── page.tsx        # Página inicial (rota "/")
 ├── public/             # Arquivos estáticos (imagens, fontes, etc.)
