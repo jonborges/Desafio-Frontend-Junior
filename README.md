@@ -1,14 +1,5 @@
 ## Getting Started
-Este é o projeto base para o desafio de desenvolvimento frontend da Frontend Fusion. O objetivo é criar uma aplicação web moderna e responsiva a partir deste template inicial, que já vem configurado com as tecnologias mais recentes do ecossistema React.
-
-## ✨ Funcionalidades do Template
-
-- **Estrutura Moderna:** Utiliza o App Router do Next.js para uma organização de rotas e layouts mais intuitiva.
-- **Estilização com Tailwind CSS:** Configurado com o framework CSS utility-first mais popular para um desenvolvimento ágil e consistente.
-- **TypeScript:** Todo o projeto está configurado com TypeScript para garantir um código mais robusto e seguro.
-- **Fonte Padrão:** A fonte `Inter` já está importada e configurada como padrão no `globals.css`.
-
----
+Este é o projeto para o desafio de frontend da Fusion. O objetivo é criar um frontend simples de um Card de voluntário, utilizando o template figma: https://www.figma.com/design/JO0vsAS75zlc0Vrx0tA5WZ/Untitled?node-id=0-1&t=8UDm9Y2PkOhwYS6a-1.
 
 ## 🚀 Tecnologias Utilizadas
 
@@ -75,7 +66,7 @@ A estrutura principal do projeto está organizada da seguinte forma:
 ```
 frontend-fusion-desafio/
 ├── app/
-│   ├── globals.css     # Estilos globais e configuração do Tailwind
+│   ├── Components     # Estilos globais e configuração do Tailwind
 │   ├── layout.tsx      # Layout principal da aplicação
 │   └── page.tsx        # Página inicial (rota "/")
 ├── public/             # Arquivos estáticos (imagens, fontes, etc.)
@@ -83,8 +74,8 @@ frontend-fusion-desafio/
 └── README.md
 ```
 
-- **`app/`**: Contém todas as rotas, componentes e a lógica da sua aplicação, utilizando o App Router do Next.js.
-- **`public/`**: Ideal para armazenar ativos estáticos que serão servidos diretamente.
+- **`app/`**: Contém a lógica principal
+- **`public/`**: Guarda a imagem principal
 
 ---
 
